@@ -174,17 +174,3 @@ To obtain the result from `ErrorProne`, go to `/script/line-level-baseline/Error
 To get the results of RQ1-2, please go to `./script` and use the following command:
 
 	Rscript  get_evaluation_result_RQ12.R
-
-To get the results of RQ3, please go to `./script/RQ3` and use the following command:
-
-	./run.sh
-
-To get the results of RQ4, please go to `./script/RQ4` and use the following command:
-
-	./run.sh
-
-To get the results of RQ5, please go to `./script/RQ5` and use the following command:
-
-	./run.sh
-
-The results are figures that are stored in `./output/figures/` in each dir.
