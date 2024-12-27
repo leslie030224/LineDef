@@ -45,18 +45,14 @@ Our Project contains the following directory
 
 ### Python Environment Setup
 
-1. clone the github repository by using the following command:
+1.. download the dataset from this [github](https://github.com/awsm-research/line-level-defect-prediction) and keep it in `./datasets/original/`
 
-		git clone https://github.com/awsm-research/DeepLineDP.git
-
-2. download the dataset from this [github](https://github.com/awsm-research/line-level-defect-prediction) and keep it in `./datasets/original/`
-
-3. use the following command to install required libraries in conda environment
+2.. use the following command to install required libraries in conda environment
 
 		conda env create -f requirements.yml
 		conda activate LineDef_env
 
-4. install PyTorch library by following the instruction from this [link](https://pytorch.org/) (the installation instruction may vary based on OS and CUDA version)
+3.. install PyTorch library by following the instruction from this [link](https://pytorch.org/) (the installation instruction may vary based on OS and CUDA version)
 
 ### R Environment Setup
 
